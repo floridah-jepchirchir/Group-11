@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery | Urban Dance Club</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+      padding: 1rem 0;
+    }
+
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+          <div class="logo">Urban Dance Club</div>
+          <button id="menu-toggle">Menu</button>
+          <ul id="nav-links" class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="developers.html">Developers</a></li>
+          </ul>
+        </nav>
+      </header>
+  <main class="intro">
+    <h1>Gallery</h1>
+    <div class="gallery">
+      <img src="images/Dance 1.jpeg" alt="Dance Event 1">
+      <img src="images/Dance 2.jpeg" alt="Dance Event 2">
+      <img src="images/Dance 3.jpeg" alt="Dance Event 3">
+      <img src="images/Dance 4.jpeg" alt="Dance Event 4">
+      <img src="images/Dance 5.jpeg" alt="Dance Event 5">
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2025 Urban Dance Club. All rights reserved.</p>
+  </footer>
+</body>
+</html>
